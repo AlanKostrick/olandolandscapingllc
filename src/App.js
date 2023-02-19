@@ -1,12 +1,8 @@
-import './App.css';
-
-import logo from './logo.svg';
+import HomeSlider from "./components/hero-slider/home-slider";
 
 function App() {
   return (
-    <div className="App">
-      Olandolandscapingllc
-    </div>
+    <HomeSlider />
   );
 }
 
