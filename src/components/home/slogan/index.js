@@ -9,7 +9,7 @@ const Slogan = () => {
                 <button className={styles.secondaryBtn}>Get A Quote</button>
             </div>
         </div>
-    )
+    );
 }
 
 export default Slogan;
