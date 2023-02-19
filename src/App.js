@@ -1,12 +1,25 @@
-import './App.css';
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-import logo from './logo.svg';
+import ErrorPage from "./pages/error";
+import HomePage from "./pages/home";
+import Layout from "./pages/layout";
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Layout />,
+    errorElement: <ErrorPage />,
+    children: [
+      { index: true, element: <HomePage /> }
+    ]
+  }
+]);
+
+
 
 function App() {
   return (
-    <div className="App">
-      Olandolandscapingllc
-    </div>
+    <RouterProvider router={router} />
   );
 }
 

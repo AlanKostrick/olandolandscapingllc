@@ -1,0 +1,116 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-slider-overlay div {
+    align-items: flex-start !important;
+    margin: 50px 100px;
+    height: 75%;
+}
+
+.hero-slider-overlay h1 {
+    font-size: 96px;
+    text-align: left;
+    margin: 0;
+}
+
+.hero-slider-overlay h2 {
+    text-align: left;
+    margin: 0;
+    max-width: 900px;
+    font-size: 29px;
+    font-weight: 500 !important;
+}
+
+ul li div div span {
+    border: none !important;
+    height: 0 !important;
+    width: 0 !important;
+}
+
+ul li div p {
+    margin: 5px 0;
+}
+
+svg {
+    color: #22900f !important;
+    stroke: #22900f;
+}
+
+.buttonText {
+    font-size: 20px;
+}
+
+.subText {
+    font-size: 12px;
+}
+
+.buttonContainer {
+    display: flex;
+    margin: 0 !important;
+}
+
+.primaryBtn {
+    background: #22900f;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    height: 48px;
+    max-width: 450px;
+    min-width: 150px;
+    margin: 20px 10px;
+    text-transform: none;
+}
+
+.secondaryBtn {
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    height: 48px;
+    max-width: 450px;
+    min-width: 150px;
+    margin: 20px 10px;
+    text-transform: none;
+}
+
+.preTitle {
+    font-size: 40px;
+    margin: 0 5px !important;
+}
+
+.title {
+    text-align: left !important;
+}
+
+.buttonWrapper {
+    margin: 0 !important;
+    height: unset !important;
+}
+
+@media screen and (max-width: 850px) {
+    ul {
+        background-color: unset;
+    }
+}
