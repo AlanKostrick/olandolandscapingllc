@@ -1,0 +1,29 @@
+.slogan {
+    align-items: center;
+    background-color: #0b3d2c;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    justify-content: center;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.buttonContainer {
+    display: flex;
+    margin: 0 !important;
+}
+
+.secondaryBtn {
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    height: 48px;
+    max-width: 450px;
+    margin: 20px 10px;
+    min-width: 150px;
+    text-transform: none;
+}

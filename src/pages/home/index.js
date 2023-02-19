@@ -1,12 +1,16 @@
+import CTAs from '../../components/home/ctas';
 import HomeSlider from '../../components/hero-slider/home-slider';
 import React from 'react';
-import Slogan from '../../components/slogan';
+import Reviews from '../../components/home/reviews';
+import Slogan from '../../components/home/slogan';
 
 const HomePage = () => {
     return (
         <>
             <HomeSlider />
             <Slogan />
+            <CTAs />
+            <Reviews />
         </>
     )
 }
