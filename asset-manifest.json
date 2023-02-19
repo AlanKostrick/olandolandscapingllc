@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/olandolandscapingllc/static/css/main.194a3523.css",
-    "main.js": "/olandolandscapingllc/static/js/main.506acc5a.js",
+    "main.js": "/olandolandscapingllc/static/js/main.2c97ee12.js",
     "static/js/787.a7b9c2d7.chunk.js": "/olandolandscapingllc/static/js/787.a7b9c2d7.chunk.js",
     "static/media/tools.jpg": "/olandolandscapingllc/static/media/tools.f8f30ccecde262603725.jpg",
     "static/media/house.jpg": "/olandolandscapingllc/static/media/house.d275a566644452200dec.jpg",
@@ -9,11 +9,11 @@
     "static/media/backyard.jpg": "/olandolandscapingllc/static/media/backyard.07abda6530ec9d16d4c6.jpg",
     "index.html": "/olandolandscapingllc/index.html",
     "main.194a3523.css.map": "/olandolandscapingllc/static/css/main.194a3523.css.map",
-    "main.506acc5a.js.map": "/olandolandscapingllc/static/js/main.506acc5a.js.map",
+    "main.2c97ee12.js.map": "/olandolandscapingllc/static/js/main.2c97ee12.js.map",
     "787.a7b9c2d7.chunk.js.map": "/olandolandscapingllc/static/js/787.a7b9c2d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.194a3523.css",
-    "static/js/main.506acc5a.js"
+    "static/js/main.2c97ee12.js"
   ]
 }
