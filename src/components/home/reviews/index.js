@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import five from '../../../assets/five.png';
 import styles from './style.module.css';
@@ -10,10 +11,12 @@ const Reviews = () => {
             <h3>"Highly impressed!"</h3>
             <h3>"Professional and reliable"</h3>
             <h3>"Will achieve your vision within a budget"</h3>
-            <h3>"They listend to our requests"</h3>
-            <div className={styles.buttonWrapper}>
-                <button className={styles.secondaryBtn}>Get A Quote</button>
-            </div>
+            <h3>"They listened to our requests"</h3>
+            <Link to='/contact'>
+                <div className={styles.buttonWrapper}>
+                    <button className={styles.secondaryBtn}>Get A Quote</button>
+                </div>
+            </Link>
         </div>
     );
 }

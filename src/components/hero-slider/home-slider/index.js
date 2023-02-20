@@ -1,5 +1,6 @@
 import HeroSlider, { MenuNav, Overlay, Slide } from "hero-slider";
 
+import { Link } from "react-router-dom";
 import Subtitle from "../subtitle";
 import Title from "../title";
 import Wrapper from "../wrapper";
@@ -42,9 +43,11 @@ export default function HomeSlider() {
                         <Subtitle className={styles.subTitle}>
                             Professional Landscaping and Maintenance Services
                         </Subtitle>
-                        <div className={styles.buttonContainer}>
-                            <button className={styles.secondaryBtn}>Get Started</button>
-                        </div>
+                        <Link to='/contact'>
+                            <div className={styles.buttonContainer}>
+                                <button className={styles.secondaryBtn}>Get Started</button>
+                            </div>
+                        </Link>
                     </Wrapper>
                 </Overlay>
             </Slide>
@@ -64,9 +67,11 @@ export default function HomeSlider() {
                         <Subtitle>
                             Lawn Service Plans, Home Maintenance, Pressure Washing
                         </Subtitle>
-                        <div className={styles.buttonWrapper}>
-                            <button className={styles.primaryBtn}>Learn More</button>
-                        </div>
+                        <Link to='/services'>
+                            <div className={styles.buttonWrapper}>
+                                <button className={styles.primaryBtn}>Learn More</button>
+                            </div>
+                        </Link>
                     </Wrapper>
                 </Overlay>
             </Slide>
@@ -86,9 +91,11 @@ export default function HomeSlider() {
                         <Subtitle>
                             Lawn Care Services, Snow Removal, Mulching
                         </Subtitle>
-                        <div className={styles.buttonWrapper}>
-                            <button className={styles.primaryBtn}>Learn More</button>
-                        </div>
+                        <Link to='/services'>
+                            <div className={styles.buttonWrapper}>
+                                <button className={styles.primaryBtn}>Learn More</button>
+                            </div>
+                        </Link>
                     </Wrapper>
                 </Overlay>
             </Slide>
@@ -108,9 +115,11 @@ export default function HomeSlider() {
                         <Subtitle>
                             Driveways, Lights, Leaks, Plumbing
                         </Subtitle>
-                        <div className={styles.buttonWrapper}>
-                            <button className={styles.primaryBtn}>Learn More</button>
-                        </div>
+                        <Link to='/services'>
+                            <div className={styles.buttonWrapper}>
+                                <button className={styles.primaryBtn}>Learn More</button>
+                            </div>
+                        </Link>
                     </Wrapper>
                 </Overlay>
             </Slide>
