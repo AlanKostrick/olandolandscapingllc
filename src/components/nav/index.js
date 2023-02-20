@@ -7,7 +7,9 @@ const NavBar = () => {
     return (
         <div className={style.nav}>
             <header className={style.header}>
-                <img className={style.logo} src={logo} alt='' />
+                <NavLink to='/'>
+                    <img className={style.logo} src={logo} alt='' />
+                </NavLink>
                 <nav>
                     <ul className={style.list}>
                         <li>
@@ -23,22 +25,45 @@ const NavBar = () => {
                         </li>
                         <li>
                             <NavLink
+                                to="/residential"
+                                className={({ isActive }) =>
+                                    isActive ? style.active : undefined
+                                }
+                                end
+                            >
+                                Residential
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                to="/commercial"
+                                className={({ isActive }) =>
+                                    isActive ? style.active : undefined
+                                }
+                                end
+                            >
+                                Commercial
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                to="/maintenance"
+                                className={({ isActive }) =>
+                                    isActive ? style.active : undefined
+                                }
+                                end
+                            >
+                                Maintenance
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
                                 to="/about"
                                 className={({ isActive }) =>
                                     isActive ? style.active : undefined
                                 }
                             >
                                 About
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                to="/reviews"
-                                className={({ isActive }) =>
-                                    isActive ? style.active : undefined
-                                }
-                            >
-                                Reviews
                             </NavLink>
                         </li>
                         <li>
