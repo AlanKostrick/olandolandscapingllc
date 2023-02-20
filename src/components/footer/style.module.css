@@ -1,0 +1,18 @@
+.footerSections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 90%;
+    margin: auto;
+}
+
+.footerSection {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: center;
+}
+
+.footerSection ul {
+    list-style-type: none;
+    padding: 0;
+}
