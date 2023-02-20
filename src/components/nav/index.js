@@ -25,35 +25,13 @@ const NavBar = () => {
                         </li>
                         <li>
                             <NavLink
-                                to="/residential"
+                                to="/services"
                                 className={({ isActive }) =>
                                     isActive ? style.active : undefined
                                 }
                                 end
                             >
-                                Residential
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                to="/commercial"
-                                className={({ isActive }) =>
-                                    isActive ? style.active : undefined
-                                }
-                                end
-                            >
-                                Commercial
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                to="/maintenance"
-                                className={({ isActive }) =>
-                                    isActive ? style.active : undefined
-                                }
-                                end
-                            >
-                                Maintenance
+                                Services
                             </NavLink>
                         </li>
                         <li>

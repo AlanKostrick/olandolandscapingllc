@@ -1,24 +1,20 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 
 import About from "./pages/about";
-import Commercial from "./pages/commercial";
 import Contact from "./pages/contact";
 import ErrorPage from "./pages/error";
 import HomePage from "./pages/home";
 import Layout from "./pages/layout";
-import Maintenance from "./pages/maintenance";
-import Residential from "./pages/residential";
+import Services from "./pages/services";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Layout />,
     errorElement: <ErrorPage />,
     children: [
       { index: true, element: <HomePage /> },
-      { path: '/residential', element: <Residential /> },
-      { path: '/commercial', element: <Commercial /> },
-      { path: '/maintenance', element: <Maintenance /> },
+      { path: '/services', element: <Services /> },
       { path: 'about', element: <About /> },
       { path: 'contact', element: <Contact /> }
     ]

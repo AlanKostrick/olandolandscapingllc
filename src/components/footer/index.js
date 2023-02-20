@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import styles from './style.module.css';
 
@@ -12,9 +13,9 @@ const Footer = () => {
                 <div className={styles.footerSection}>
                     <h2>OUR SERVICES</h2>
                     <ul>
-                        <li>Residential</li>
-                        <li>Businesses</li>
-                        <li>Maintenance</li>
+                        <Link to='/services'>
+                            <li>We serve homes and businesses</li>
+                        </Link>
                     </ul>
                 </div>
                 <div className={styles.footerSection}>
