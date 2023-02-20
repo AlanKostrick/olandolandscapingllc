@@ -70,23 +70,32 @@ svg {
 }
 
 .primaryBtn {
-    background: #22900f;
+    background: #0b3d2c;
     border: none;
     border-radius: 4px;
     color: #ffffff;
+    cursor: pointer;
     font-size: 16px;
     height: 48px;
     max-width: 450px;
     min-width: 150px;
     margin: 20px 10px;
     text-transform: none;
+}
+
+.primaryBtn:hover {
+    background: none;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    transition: .5s;
 }
 
 .secondaryBtn {
     background: none;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 4px;
     color: #ffffff;
+    cursor: pointer;
     font-size: 16px;
     height: 48px;
     max-width: 450px;
@@ -95,8 +104,14 @@ svg {
     text-transform: none;
 }
 
+.secondaryBtn:hover {
+    background: #0b3d2c;
+    opacity: 0.8;
+    transition: .5s;
+}
+
 .preTitle {
-    font-size: 40px;
+    font-size: 50px;
     margin: 0 5px !important;
 }
 

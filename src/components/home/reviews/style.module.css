@@ -1,4 +1,4 @@
-.slogan {
+.reviews {
     align-items: center;
     background-color: #0b3d2c;
     color: #ffffff;
@@ -28,6 +28,12 @@
     text-transform: none;
 }
 
+.secondaryBtn:hover {
+    background: #ffffff;
+    color: #0b3d2c;
+    transition: .5s;
+}
+
 .icon {
     height: 150px;
 }
@@ -39,4 +45,17 @@ a {
 
 a:hover {
     color: #39f2b4;
+}
+
+@media screen and (max-width: 625px) {
+
+    .reviews h2 {
+        font-size: 25px;
+    }
+
+    .reviews h3 {
+        font-size: 22px;
+    }
+
+
 }
