@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@800&family=Lato:wght@400');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
