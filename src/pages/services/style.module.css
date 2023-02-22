@@ -5,8 +5,8 @@
     text-align: center;
 }
 
-.container h1 {
-    margin: 75px 0;
+.header {
+    margin-top: 75px;
 }
 
 .servicesContainer {

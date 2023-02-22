@@ -10,6 +10,8 @@
     cursor: pointer;
     padding: 10px;
     text-align: center;
+    width: 200px;
+    margin: auto;
 }
 
 .ctaItem:hover {
@@ -52,10 +54,129 @@
     width: 60px;
 }
 
-.collapsibleContainer img {
-    width: 300px;
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.itemContainerFade {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+.itemContainer img {
+    margin: 30px;
+    width: 350px;
+}
+
+.itemContainerFade img {
+    margin: 30px;
+    width: 350px;
+}
+
+.contactBtn {
+    background: #0b3d2c;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 48px;
+    max-width: 450px;
+    min-width: 150px;
+    margin: 20px 10px;
+    text-transform: none;
+}
+
+.contactBtn:hover {
+    background: none;
+    border: 2px solid #0b3d2c;
+    color: #0b3d2c;
+    transition: .5s;
+}
+
+.infoHeader h2 {
+    font-size: 26px;
+}
+
+.closeBtn {
+    background: #0b3d2c;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    max-width: 30px;
+    min-width: 30px;
+    margin: 5px;
+    text-transform: none;
+}
+
+.closeBtn:hover {
+    background: none;
+    border: 2px solid #0b3d2c;
+    color: #0b3d2c;
+    transition: .5s;
+}
+
+.text {
+    color: #0b3d2c;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: auto;
+    max-width: 850px;
+}
 
 @media screen and (max-width: 1050px) {
 

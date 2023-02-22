@@ -32,7 +32,7 @@ const Services = () => {
                     </p>
                 </div>
             </div>
-            <h1>What Do We Do?</h1>
+            <h1 className={styles.header}>What Do We Do?</h1>
             <CTAs />
         </div >
     )
