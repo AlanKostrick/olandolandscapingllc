@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/olandolandscapingllc/static/css/main.a2d18a29.css",
-    "main.js": "/olandolandscapingllc/static/js/main.1c24f36a.js",
+    "main.css": "/olandolandscapingllc/static/css/main.02960e88.css",
+    "main.js": "/olandolandscapingllc/static/js/main.8194a10d.js",
     "static/js/787.a7b9c2d7.chunk.js": "/olandolandscapingllc/static/js/787.a7b9c2d7.chunk.js",
     "static/media/residential.jpg": "/olandolandscapingllc/static/media/residential.947b541f50d09a83411c.jpg",
     "static/media/tools.jpg": "/olandolandscapingllc/static/media/tools.f8f30ccecde262603725.jpg",
@@ -16,6 +16,7 @@
     "static/media/siding.png": "/olandolandscapingllc/static/media/siding.e5f25014f7926f216fa8.png",
     "static/media/trimming.png": "/olandolandscapingllc/static/media/trimming.b01dcf8c3ac45acb2dfd.png",
     "static/media/snowRemoval.png": "/olandolandscapingllc/static/media/snowRemoval.8f986efaca46094a973b.png",
+    "static/media/hamburger.jpg": "/olandolandscapingllc/static/media/hamburger.23515f7fe1eb60e9b081.jpg",
     "static/media/logo.png": "/olandolandscapingllc/static/media/logo.99e7ac55a23e734bef8f.png",
     "static/media/gardening.png": "/olandolandscapingllc/static/media/gardening.84ddc4b652ffb68f8381.png",
     "static/media/shovel.png": "/olandolandscapingllc/static/media/shovel.754f400d32fbff90bde5.png",
@@ -27,12 +28,12 @@
     "static/media/five.png": "/olandolandscapingllc/static/media/five.a7aaf79ad5ec223f0497.png",
     "static/media/pressure-washer.png": "/olandolandscapingllc/static/media/pressure-washer.767b78dd1bc8c66b4717.png",
     "index.html": "/olandolandscapingllc/index.html",
-    "main.a2d18a29.css.map": "/olandolandscapingllc/static/css/main.a2d18a29.css.map",
-    "main.1c24f36a.js.map": "/olandolandscapingllc/static/js/main.1c24f36a.js.map",
+    "main.02960e88.css.map": "/olandolandscapingllc/static/css/main.02960e88.css.map",
+    "main.8194a10d.js.map": "/olandolandscapingllc/static/js/main.8194a10d.js.map",
     "787.a7b9c2d7.chunk.js.map": "/olandolandscapingllc/static/js/787.a7b9c2d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2d18a29.css",
-    "static/js/main.1c24f36a.js"
+    "static/css/main.02960e88.css",
+    "static/js/main.8194a10d.js"
   ]
 }
