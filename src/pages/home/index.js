@@ -7,7 +7,7 @@ import styles from './style.module.css';
 
 const HomePage = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.homeContainer}>
             <HomeSlider />
             <Slogan />
             <CTAs />

@@ -37,10 +37,52 @@
     width: 100%;
 }
 
+.hamburger {
+    display: none;
+}
+
+.hamburgerImg {
+    display: none
+}
+
 @media screen and (max-width: 670px) {
 
     .header {
         flex-direction: column;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .hamburger {
+        background: none;
+        border: none;
+        display: block;
+    }
+
+    .hamburger p {
+        font-size: 20px;
+        font-weight: 600;
+        height: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hamburgerImg {
+        display: block;
+        height: 30px;
+        width: 30px;
+        border: none;
+        background: none;
+    }
+
+    .navMobileClosed {
+        display: none;
+    }
+
+    .navMobileOpen {
+        display: block;
     }
 }
 
@@ -49,5 +91,6 @@
     .list {
         flex-direction: column;
         gap: .5rem;
+        text-align: center;
     }
 }

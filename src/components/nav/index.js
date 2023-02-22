@@ -1,8 +1,13 @@
+import React, { useState } from 'react';
+
 import { NavLink } from 'react-router-dom';
+import hamburger from '../../assets/hamburger.jpg';
 import logo from '../../assets/logo.png';
 import style from './style.module.css';
 
 const NavBar = () => {
+
+    const [isOpen, setOpen] = useState(false);
 
     return (
         <div className={style.nav}>
@@ -10,7 +15,10 @@ const NavBar = () => {
                 <NavLink to='/'>
                     <img className={style.logo} src={logo} alt='' />
                 </NavLink>
-                <nav>
+                <button className={style.hamburger} onClick={() => setOpen(!isOpen)}>
+                    {isOpen ? <p>X </p> : <img className={style.hamburgerImg} src={hamburger} alt='' />}
+                </button>
+                <nav className={isOpen ? style.navMobileOpen : style.navMobileClosed}>
                     <ul className={style.list}>
                         <li>
                             <NavLink

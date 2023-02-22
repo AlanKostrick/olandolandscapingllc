@@ -141,3 +141,11 @@ svg {
         background-color: unset;
     }
 }
+
+@media screen and (max-width: 450px) {
+
+    .preTitle {
+        font-size: 30px;
+        text-align: center;
+    }
+}
