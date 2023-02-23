@@ -30,7 +30,7 @@ export default function HomeSlider() {
             <Slide
                 label=<div>
                     <p className={styles.buttonText}>Who We Are</p>
-                    <p className={styles.subText}>OVERVIEW</p>
+                    <p className={styles.subText}>ABOUT US</p>
                 </div>
                 background={{
                     backgroundImageSrc: home
@@ -55,7 +55,7 @@ export default function HomeSlider() {
             <Slide
                 label=<div>
                     <p className={styles.buttonText}>Residential</p>
-                    <p className={styles.subText}>INDIVIDUALS</p>
+                    <p className={styles.subText}>TAKING CARE OF YOUR HOME</p>
                 </div>
                 background={{
                     backgroundImageSrc: backyard
@@ -79,7 +79,7 @@ export default function HomeSlider() {
             <Slide
                 label=<div>
                     <p className={styles.buttonText}>Commercial</p>
-                    <p className={styles.subText}>BUSINESSES</p>
+                    <p className={styles.subText}>AT YOUR SERVICE</p>
                 </div>
                 background={{
                     backgroundImageSrc: commercial

@@ -1,0 +1,38 @@
+.container {
+    color: #0b3d2c;
+    text-align: center;
+}
+
+h2 {
+    margin: 30px;
+}
+
+.contactSection {
+    font-size: 25px;
+    margin: 50px;
+}
+
+.email {
+    color: #0b3d2c;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.location {
+    color: #0b3d2c;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.phone {
+    color: #0b3d2c;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.para {
+    align-items: center;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+}

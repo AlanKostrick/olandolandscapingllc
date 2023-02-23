@@ -10,6 +10,14 @@
     text-align: center;
 }
 
+.reviews h2 {
+    margin: 20px;
+}
+
+.reviews h3 {
+    margin: 15px;
+}
+
 .buttonContainer {
     display: flex;
     margin: 0 !important;

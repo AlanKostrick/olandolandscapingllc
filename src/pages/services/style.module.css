@@ -1,3 +1,13 @@
+.servicesHero {
+    margin: auto;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
 .container {
     margin: auto;
     max-width: 1600px;

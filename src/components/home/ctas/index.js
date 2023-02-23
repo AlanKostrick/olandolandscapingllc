@@ -142,8 +142,6 @@ const CTAs = () => {
     }
 
 
-
-
     return (
         <div>
 
@@ -309,41 +307,46 @@ const CTAs = () => {
 
 
             <div className={styles.container}>
-                <div className={cx(styles.ctaItem, isLawnServiceOpen ? styles.ctaItemOpen : null, isSomethingOpen && !isLawnServiceOpen ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openLawnService()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isLawnServiceOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isLawnServiceOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openLawnService()}>
                     <img className={styles.icon} src={lawnmower} alt='' />
                     <h3>Lawn Service</h3>
                 </div>
-                <div className={cx(styles.ctaItem, isHardscapesOpen ? styles.ctaItemOpen : null, isSomethingOpen && !isHardscapesOpen ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openHardscapes()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isHardscapesOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isHardscapesOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openHardscapes()}>
                     <img className={styles.icon} src={paving} alt='' />
                     <h3>Hardscapes</h3>
                 </div>
-                <div className={cx(styles.ctaItem, isPressureWashingOpen ? styles.ctaItemOpen : null, isSomethingOpen && !isPressureWashingOpen ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openPressureWashing()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isPressureWashingOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isPressureWashingOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openPressureWashing()}>
                     <img className={styles.icon} src={pressureWasher} alt='' />
                     <h3>Pressure Washing</h3>
                 </div>
-                <div className={cx(styles.ctaItem, isMaintenanceOpen ? styles.ctaItemOpen : null, isSomethingOpen && !isMaintenanceOpen ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openMaintenance()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isMaintenanceOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isMaintenanceOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openMaintenance()}>
                     <img className={styles.icon} src={field} alt='' />
                     <h3>Maintenance</h3>
                 </div>
-                <div className={cx(styles.ctaItem, isGardeningOpen ? styles.ctaItemOpen : null, isSomethingOpen && !isGardeningOpen ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openGardening()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isGardeningOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isGardeningOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openGardening()}>
                     <img className={styles.icon} src={gardening} alt='' />
                     <h3>Gardening</h3>
                 </div>
-                <div className={cx(styles.ctaItem, isSnowRemovalOpen ? styles.ctaItemOpen : null, isSomethingOpen && !isSnowRemovalOpen ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openSnowRemoval()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isSnowRemovalOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isSnowRemovalOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openSnowRemoval()}>
                     <img className={styles.icon} src={shovel} alt='' />
                     <h3>Snow Removal</h3>
                 </div>
-                <div className={cx(styles.ctaItem, isLeavesOpen ? styles.ctaItemOpen : null, isSomethingOpen && !isLeavesOpen ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openLeaves()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isLeavesOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isLeavesOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openLeaves()}>
                     <img className={styles.icon} src={raking} alt='' />
                     <h3>Leaves</h3>
                 </div>
-                <div className={cx(styles.ctaItem, isMulchingOpen ? styles.ctaItemOpen : null, isSomethingOpen && !isMulchingOpen ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openMulching()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isMulchingOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isMulchingOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openMulching()}>
                     <img className={styles.icon} src={mulch} alt='' />
                     <h3>Mulching</h3>
                 </div>
             </div>
-
-
+            {location.pathname === '/' &&
+                <Link to='/services'>
+                    <div className={styles.buttonWrapper}>
+                        <button className={styles.primaryBtn}>Learn More</button>
+                    </div>
+                </Link>
+            }
         </div>
     )
 }
