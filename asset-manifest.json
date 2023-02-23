@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/olandolandscapingllc/static/css/main.02960e88.css",
-    "main.js": "/olandolandscapingllc/static/js/main.8194a10d.js",
+    "main.css": "/olandolandscapingllc/static/css/main.1435966c.css",
+    "main.js": "/olandolandscapingllc/static/js/main.c992b0d3.js",
     "static/js/787.a7b9c2d7.chunk.js": "/olandolandscapingllc/static/js/787.a7b9c2d7.chunk.js",
-    "static/media/residential.jpg": "/olandolandscapingllc/static/media/residential.947b541f50d09a83411c.jpg",
     "static/media/tools.jpg": "/olandolandscapingllc/static/media/tools.f8f30ccecde262603725.jpg",
+    "static/media/garden2.jpg": "/olandolandscapingllc/static/media/garden2.8630421940e90c2a799e.jpg",
     "static/media/house.jpg": "/olandolandscapingllc/static/media/house.d275a566644452200dec.jpg",
     "static/media/commercial.jpg": "/olandolandscapingllc/static/media/commercial.df02f084c27f239faf4d.jpg",
+    "static/media/lawncare3.jpg": "/olandolandscapingllc/static/media/lawncare3.04cc4d57394dae33a2e2.jpg",
     "static/media/lawn-care.jpg": "/olandolandscapingllc/static/media/lawn-care.5e5701733f580c6c2f54.jpg",
     "static/media/fix.jpg": "/olandolandscapingllc/static/media/fix.4c14851d42f8ae1c2fdd.jpg",
-    "static/media/businesses.jpg": "/olandolandscapingllc/static/media/businesses.9781b20c1d3160901cd0.jpg",
     "static/media/backyard.jpg": "/olandolandscapingllc/static/media/backyard.07abda6530ec9d16d4c6.jpg",
     "static/media/mulch.png": "/olandolandscapingllc/static/media/mulch.7fbe6a2933c35ff42d61.png",
     "static/media/pavers2.png": "/olandolandscapingllc/static/media/pavers2.834361d7cba43fe67101.png",
     "static/media/siding.png": "/olandolandscapingllc/static/media/siding.e5f25014f7926f216fa8.png",
+    "static/media/residentialNeeds.png": "/olandolandscapingllc/static/media/residentialNeeds.fd15e8d8f5df77b32014.png",
+    "static/media/commercialNeeds.png": "/olandolandscapingllc/static/media/commercialNeeds.fc736ade175cf211d1b9.png",
+    "static/media/maintenanceNeeds.png": "/olandolandscapingllc/static/media/maintenanceNeeds.8aaa65c76edc5861e4bd.png",
     "static/media/trimming.png": "/olandolandscapingllc/static/media/trimming.b01dcf8c3ac45acb2dfd.png",
     "static/media/snowRemoval.png": "/olandolandscapingllc/static/media/snowRemoval.8f986efaca46094a973b.png",
     "static/media/hamburger.jpg": "/olandolandscapingllc/static/media/hamburger.23515f7fe1eb60e9b081.jpg",
@@ -28,12 +31,12 @@
     "static/media/five.png": "/olandolandscapingllc/static/media/five.a7aaf79ad5ec223f0497.png",
     "static/media/pressure-washer.png": "/olandolandscapingllc/static/media/pressure-washer.767b78dd1bc8c66b4717.png",
     "index.html": "/olandolandscapingllc/index.html",
-    "main.02960e88.css.map": "/olandolandscapingllc/static/css/main.02960e88.css.map",
-    "main.8194a10d.js.map": "/olandolandscapingllc/static/js/main.8194a10d.js.map",
+    "main.1435966c.css.map": "/olandolandscapingllc/static/css/main.1435966c.css.map",
+    "main.c992b0d3.js.map": "/olandolandscapingllc/static/js/main.c992b0d3.js.map",
     "787.a7b9c2d7.chunk.js.map": "/olandolandscapingllc/static/js/787.a7b9c2d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02960e88.css",
-    "static/js/main.8194a10d.js"
+    "static/css/main.1435966c.css",
+    "static/js/main.c992b0d3.js"
   ]
 }
