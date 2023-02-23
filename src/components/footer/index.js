@@ -36,6 +36,7 @@ const Footer = () => {
                     <p className={styles.para}><span className={styles.phone}>&#128222;</span>(585) 300-1181</p>
                     <p className={styles.para} ><span className={styles.phone}>&#128222;</span>(585) 300-1165</p>
                     <p>&copy; 2023 Olando Landscaping LLC</p>
+                    <p style={{ fontWeight: '700' }}>Licensed & Insured</p>
                 </div>
             </div>
 

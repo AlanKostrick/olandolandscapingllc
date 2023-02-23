@@ -7,7 +7,7 @@ const About = () => {
         <>
             <div style={{
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${garden})`,
-                height: '750px',
+                height: '65vh',
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat'
@@ -15,7 +15,7 @@ const About = () => {
             <div style={{
                 textAlign: 'center',
                 position: 'absolute',
-                top: '30%',
+                top: '40%',
                 left: '50%',
                 transform: 'translate(-50%, -50%)',
                 color: 'white',
@@ -32,6 +32,7 @@ const About = () => {
 
                         If you're looking for a landscaping professional, or are just thinking about making a few changes around your property, contact Olando Landscaping LLC today and let us discuss how our team can meet your project needs.</p>
                     <h3>Free Consultation!</h3>
+                    <h4>Licensed & Insured</h4>
                     <p className={styles.para}><span className={styles.email}>&#9993;</span> olandolandscaping@yahoo.com</p>
                     <p className={styles.para}><span className={styles.location}>&#10992;</span>Parkville, MD 21234</p>
                     <p className={styles.para}><span className={styles.phone}>&#128222;</span>(585) 300-1181</p>

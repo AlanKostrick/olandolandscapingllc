@@ -7,7 +7,7 @@ const Contact = () => {
         <>
             <div style={{
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${lawn})`,
-                height: '750px',
+                height: '65vh',
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat'
@@ -15,7 +15,7 @@ const Contact = () => {
             <div style={{
                 textAlign: 'center',
                 position: 'absolute',
-                top: '30%',
+                top: '40%',
                 left: '50%',
                 transform: 'translate(-50%, -50%)',
                 color: 'white',
