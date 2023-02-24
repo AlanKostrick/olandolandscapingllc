@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import React, { useState } from 'react';
 
-import Collapsible from 'react-collapsible';
+import Modal from 'react-modal';
 import cx from 'classnames';
 import field from '../../../assets/field.png';
 import fix from '../../../assets/fix.jpg';
@@ -31,7 +31,6 @@ const CTAs = () => {
     const [isSnowRemovalOpen, setSnowRemovalOpen] = useState(false);
     const [isLeavesOpen, setLeavesOpen] = useState(false);
     const [isMulchingOpen, setMulchingOpen] = useState(false);
-    const [isSomethingOpen, setSomethingOpen] = useState(false);
 
     const openLawnService = () => {
         setLawnServiceOpen(true);
@@ -42,7 +41,6 @@ const CTAs = () => {
         setSnowRemovalOpen(false);
         setLeavesOpen(false);
         setMulchingOpen(false);
-        setSomethingOpen(true);
     }
 
     const openHardscapes = () => {
@@ -54,7 +52,6 @@ const CTAs = () => {
         setSnowRemovalOpen(false);
         setLeavesOpen(false);
         setMulchingOpen(false);
-        setSomethingOpen(true);
     }
 
     const openPressureWashing = () => {
@@ -66,7 +63,6 @@ const CTAs = () => {
         setSnowRemovalOpen(false);
         setLeavesOpen(false);
         setMulchingOpen(false);
-        setSomethingOpen(true);
     }
 
     const openMaintenance = () => {
@@ -78,7 +74,6 @@ const CTAs = () => {
         setSnowRemovalOpen(false);
         setLeavesOpen(false);
         setMulchingOpen(false);
-        setSomethingOpen(true);
     }
 
     const openGardening = () => {
@@ -90,7 +85,6 @@ const CTAs = () => {
         setSnowRemovalOpen(false);
         setLeavesOpen(false);
         setMulchingOpen(false);
-        setSomethingOpen(true);
     }
 
     const openSnowRemoval = () => {
@@ -102,7 +96,6 @@ const CTAs = () => {
         setSnowRemovalOpen(true);
         setLeavesOpen(false);
         setMulchingOpen(false);
-        setSomethingOpen(true);
     }
 
     const openLeaves = () => {
@@ -114,7 +107,6 @@ const CTAs = () => {
         setSnowRemovalOpen(false);
         setLeavesOpen(true);
         setMulchingOpen(false);
-        setSomethingOpen(true);
     }
 
     const openMulching = () => {
@@ -126,7 +118,6 @@ const CTAs = () => {
         setSnowRemovalOpen(false);
         setLeavesOpen(false);
         setMulchingOpen(true);
-        setSomethingOpen(true);
     }
 
     const closeAll = () => {
@@ -138,16 +129,14 @@ const CTAs = () => {
         setSnowRemovalOpen(false);
         setLeavesOpen(false);
         setMulchingOpen(false);
-        setSomethingOpen(false);
     }
 
 
     return (
         <div>
-
-            {location.pathname === '/services' && <div className={styles.infoContainer}>
-                <Collapsible open={isLawnServiceOpen} className={styles.itemContainer} openedClassName={styles.itemContainerFade}>
-                    <div>
+            {location.pathname === '/services' && <div className={styles.infoContainerMobile}>
+                <Modal isOpen={isLawnServiceOpen} onRequestClose={() => setLawnServiceOpen(false)} >
+                    <div className={styles.modal}>
                         <div className={styles.infoHeader}>
                             <button className={styles.closeBtn} onClick={() => closeAll()}>X</button>
                             <h2>Lawn Services</h2>
@@ -164,9 +153,9 @@ const CTAs = () => {
                             <button className={styles.contactBtn}>Get A Quote</button>
                         </Link>
                     </div>
-                </Collapsible>
-                <Collapsible open={isHardscapesOpen} className={styles.itemContainer} openedClassName={styles.itemContainerFade}>
-                    <div>
+                </Modal>
+                <Modal isOpen={isHardscapesOpen} onRequestClose={() => setHardscapesOpen(false)}>
+                    <div className={styles.modal}>
                         <div className={styles.infoHeader}>
                             <button className={styles.closeBtn} onClick={() => closeAll()}>X</button>
                             <h2>Patios, Porch & Walkways</h2>
@@ -183,9 +172,9 @@ const CTAs = () => {
                             <button className={styles.contactBtn}>Get A Quote</button>
                         </Link>
                     </div>
-                </Collapsible>
-                <Collapsible open={isPressureWashingOpen} className={styles.itemContainer} openedClassName={styles.itemContainerFade}>
-                    <div>
+                </Modal>
+                <Modal isOpen={isPressureWashingOpen} onRequestClose={() => setPressureWashingOpen(false)}>
+                    <div className={styles.modal}>
                         <div className={styles.infoHeader}>
                             <button className={styles.closeBtn} onClick={() => closeAll()}>X</button>
                             <h2>Pressure Washing</h2>
@@ -206,9 +195,9 @@ const CTAs = () => {
                             <button className={styles.contactBtn}>Get A Quote</button>
                         </Link>
                     </div>
-                </Collapsible>
-                <Collapsible open={isMaintenanceOpen} className={styles.itemContainer} openedClassName={styles.itemContainerFade}>
-                    <div>
+                </Modal>
+                <Modal ispen={isMaintenanceOpen} onRequestClose={() => setMaintenanceOpen(false)}>
+                    <div className={styles.modal}>
                         <div className={styles.infoHeader}>
                             <button className={styles.closeBtn} onClick={() => closeAll()}>X</button>
                             <h2>Maintenance</h2>
@@ -226,9 +215,9 @@ const CTAs = () => {
                             <button className={styles.contactBtn}>Get A Quote</button>
                         </Link>
                     </div>
-                </Collapsible>
-                <Collapsible open={isGardeningOpen} className={styles.itemContainer} openedClassName={styles.itemContainerFade}>
-                    <div>
+                </Modal>
+                <Modal isOpen={isGardeningOpen} onRequestClose={() => setGardeningOpen(false)}>
+                    <div className={styles.modal}>
                         <div className={styles.infoHeader}>
                             <button className={styles.closeBtn} onClick={() => closeAll()}>X</button>
                             <h2>Gardening</h2>
@@ -244,9 +233,9 @@ const CTAs = () => {
                             <button className={styles.contactBtn}>Get A Quote</button>
                         </Link>
                     </div>
-                </Collapsible>
-                <Collapsible open={isSnowRemovalOpen} className={styles.itemContainer} openedClassName={styles.itemContainerFade}>
-                    <div>
+                </Modal>
+                <Modal isOpen={isSnowRemovalOpen} onRequestClose={() => setSnowRemovalOpen(false)}>
+                    <div className={styles.modal}>
                         <div className={styles.infoHeader}>
                             <button className={styles.closeBtn} onClick={() => closeAll()}>X</button>
                             <h2>Snow Removal</h2>
@@ -261,9 +250,9 @@ const CTAs = () => {
                             <button className={styles.contactBtn}>Get A Quote</button>
                         </Link>
                     </div>
-                </Collapsible>
-                <Collapsible open={isLeavesOpen} className={styles.itemContainer} openedClassName={styles.itemContainerFade}>
-                    <div>
+                </Modal>
+                <Modal isOpen={isLeavesOpen} onRequestClose={() => setLeavesOpen(false)}>
+                    <div className={styles.modal}>
                         <div className={styles.infoHeader}>
                             <button className={styles.closeBtn} onClick={() => closeAll()}>X</button>
                             <h2>Yard Cleanup</h2>
@@ -280,9 +269,9 @@ const CTAs = () => {
                             <button className={styles.contactBtn}>Get A Quote</button>
                         </Link>
                     </div>
-                </Collapsible>
-                <Collapsible open={isMulchingOpen} className={styles.itemContainer} openedClassName={styles.itemContainerFade}>
-                    <div>
+                </Modal>
+                <Modal isOpen={isMulchingOpen} onRequestClose={() => setMulchingOpen(false)}>
+                    <div className={styles.modal}>
                         <div className={styles.infoHeader}>
                             <button className={styles.closeBtn} onClick={() => closeAll()}>X</button>
                             <h2>Mulching</h2>
@@ -301,41 +290,44 @@ const CTAs = () => {
                             <button className={styles.contactBtn}>Get A Quote</button>
                         </Link>
                     </div>
-                </Collapsible>
+                </Modal>
             </div>
             }
 
 
+
+
+
             <div className={styles.container}>
-                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isLawnServiceOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isLawnServiceOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openLawnService()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem)} onClick={() => openLawnService()}>
                     <img className={styles.icon} src={lawnmower} alt='' />
                     <h3>Lawn Service</h3>
                 </div>
-                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isHardscapesOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isHardscapesOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openHardscapes()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem)} onClick={() => openHardscapes()}>
                     <img className={styles.icon} src={paving} alt='' />
                     <h3>Hardscapes</h3>
                 </div>
-                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isPressureWashingOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isPressureWashingOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openPressureWashing()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem)} onClick={() => openPressureWashing()}>
                     <img className={styles.icon} src={pressureWasher} alt='' />
                     <h3>Pressure Washing</h3>
                 </div>
-                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isMaintenanceOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isMaintenanceOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openMaintenance()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem)} onClick={() => openMaintenance()}>
                     <img className={styles.icon} src={field} alt='' />
                     <h3>Maintenance</h3>
                 </div>
-                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isGardeningOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isGardeningOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openGardening()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem)} onClick={() => openGardening()}>
                     <img className={styles.icon} src={gardening} alt='' />
                     <h3>Gardening</h3>
                 </div>
-                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isSnowRemovalOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isSnowRemovalOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openSnowRemoval()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem)} onClick={() => openSnowRemoval()}>
                     <img className={styles.icon} src={shovel} alt='' />
                     <h3>Snow Removal</h3>
                 </div>
-                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isLeavesOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isLeavesOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openLeaves()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem)} onClick={() => openLeaves()}>
                     <img className={styles.icon} src={raking} alt='' />
                     <h3>Leaves</h3>
                 </div>
-                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem, (isMulchingOpen && location.pathname === '/services') ? styles.ctaItemOpen : null, (isSomethingOpen && !isMulchingOpen && location.pathname === '/services') ? styles.somethingOpen : null)} onClick={() => !isSomethingOpen && openMulching()}>
+                <div className={cx(location.pathname === '/' ? styles.ctaItemHome : styles.ctaItem)} onClick={() => openMulching()}>
                     <img className={styles.icon} src={mulch} alt='' />
                     <h3>Mulching</h3>
                 </div>

@@ -12,7 +12,7 @@ const NavBar = () => {
     return (
         <div className={style.nav}>
             <header className={style.header}>
-                <NavLink to='/'>
+                <NavLink onClick={() => setOpen(false)} to='/'>
                     <img className={style.logo} src={logo} alt='' />
                 </NavLink>
                 <button className={style.hamburger} onClick={() => setOpen(!isOpen)}>
@@ -22,6 +22,7 @@ const NavBar = () => {
                     <ul className={style.list}>
                         <li>
                             <NavLink
+                                onClick={() => setOpen(false)}
                                 to="/"
                                 className={({ isActive }) =>
                                     isActive ? style.active : undefined
@@ -33,6 +34,7 @@ const NavBar = () => {
                         </li>
                         <li>
                             <NavLink
+                                onClick={() => setOpen(false)}
                                 to="/services"
                                 className={({ isActive }) =>
                                     isActive ? style.active : undefined
@@ -44,6 +46,7 @@ const NavBar = () => {
                         </li>
                         <li>
                             <NavLink
+                                onClick={() => setOpen(false)}
                                 to="/about"
                                 className={({ isActive }) =>
                                     isActive ? style.active : undefined
@@ -54,6 +57,7 @@ const NavBar = () => {
                         </li>
                         <li>
                             <NavLink
+                                onClick={() => setOpen(false)}
                                 to="/contact"
                                 className={({ isActive }) =>
                                     isActive ? style.active : undefined

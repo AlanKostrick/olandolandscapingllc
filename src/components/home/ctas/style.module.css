@@ -133,6 +133,22 @@
     width: 350px;
 }
 
+.itemMobileContainer {
+    opacity: 1;
+    height: 100vh;
+}
+
+.modal {
+    height: 100vh;
+    text-align: center;
+}
+
+.infoImageContainer img {
+    margin: auto;
+    height: 200px;
+}
+
+
 .contactBtn {
     background: #0b3d2c;
     border: none;
@@ -170,6 +186,7 @@
     max-width: 30px;
     min-width: 30px;
     margin: 5px;
+    text-align: center;
     text-transform: none;
 }
 
@@ -214,6 +231,14 @@
     transition: .5s;
 }
 
+.infoContainer {
+    display: block;
+}
+
+.infoContainerMobile {
+    display: none;
+}
+
 @media screen and (max-width: 1050px) {
 
     .container {
@@ -222,10 +247,14 @@
 }
 
 @media screen and (max-width: 750px) {
+    .itemContainerFade {
+        animation: none;
+    }
 
     .container {
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -235,4 +264,13 @@
         display: flex;
         flex-direction: column;
     }
+
+    .infoContainer {
+        display: none;
+    }
+
+    .infoContainerMobile {
+        display: block;
+    }
+
 }
