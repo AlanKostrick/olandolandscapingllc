@@ -13,7 +13,7 @@ import tools from '../../../assets/tools.jpg';
 export default function HomeSlider() {
     return (
         <HeroSlider
-            height={"62vh"}
+            height={"65vh"}
             autoplay
             controller={{
                 initialSlide: 1,

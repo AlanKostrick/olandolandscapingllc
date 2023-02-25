@@ -26,6 +26,7 @@
 .servicesContainer {
     background: #0b3d2c;
     color: #ffffff;
+    cursor: pointer;
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(3, 1fr);

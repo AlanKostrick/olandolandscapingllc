@@ -56,12 +56,12 @@
 
 .ctaItemHome h3 {
     color: #0b3d2c;
-    margin: 0;
+    margin: 10px;
 }
 
 .icon {
     border-radius: 50%;
-    margin: 20px;
+    margin: 10px;
     width: 60px;
 }
 
@@ -183,8 +183,7 @@
     font-size: 16px;
     font-weight: 700;
     height: 30px;
-    max-width: 30px;
-    min-width: 30px;
+    width: 45px;
     margin: 5px;
     text-align: center;
     text-transform: none;
@@ -238,6 +237,7 @@
 .infoContainerMobile {
     display: none;
 }
+
 
 @media screen and (max-width: 1050px) {
 

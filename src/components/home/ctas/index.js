@@ -196,7 +196,7 @@ const CTAs = () => {
                         </Link>
                     </div>
                 </Modal>
-                <Modal ispen={isMaintenanceOpen} onRequestClose={() => setMaintenanceOpen(false)}>
+                <Modal isOpen={isMaintenanceOpen} onRequestClose={() => setMaintenanceOpen(false)}>
                     <div className={styles.modal}>
                         <div className={styles.infoHeader}>
                             <button className={styles.closeBtn} onClick={() => closeAll()}>X</button>

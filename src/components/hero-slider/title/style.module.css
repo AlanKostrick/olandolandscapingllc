@@ -4,14 +4,13 @@
     text-transform: uppercase;
     width: 90%;
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 3rem;
 }
 
 @media screen and (max-width: 975px) {
 
     .container {
         font-size: 2.75rem;
-        ;
     }
 }
 
