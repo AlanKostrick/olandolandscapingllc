@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/olandolandscapingllc/static/css/main.678477f4.css",
+    "main.css": "/olandolandscapingllc/static/css/main.dd781e0f.css",
     "main.js": "/olandolandscapingllc/static/js/main.a83f7017.js",
     "static/js/787.a7b9c2d7.chunk.js": "/olandolandscapingllc/static/js/787.a7b9c2d7.chunk.js",
     "static/media/lawn-care.jpg": "/olandolandscapingllc/static/media/lawn-care.5e5701733f580c6c2f54.jpg",
@@ -47,12 +47,12 @@
     "static/media/pressure-washer.png": "/olandolandscapingllc/static/media/pressure-washer.767b78dd1bc8c66b4717.png",
     "static/media/outline-icons.woff2": "/olandolandscapingllc/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/olandolandscapingllc/index.html",
-    "main.678477f4.css.map": "/olandolandscapingllc/static/css/main.678477f4.css.map",
+    "main.dd781e0f.css.map": "/olandolandscapingllc/static/css/main.dd781e0f.css.map",
     "main.a83f7017.js.map": "/olandolandscapingllc/static/js/main.a83f7017.js.map",
     "787.a7b9c2d7.chunk.js.map": "/olandolandscapingllc/static/js/787.a7b9c2d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.678477f4.css",
+    "static/css/main.dd781e0f.css",
     "static/js/main.a83f7017.js"
   ]
 }
