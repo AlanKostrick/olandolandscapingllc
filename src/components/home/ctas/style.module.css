@@ -145,7 +145,8 @@
 
 .infoImageContainer img {
     margin: auto;
-    height: 200px;
+    height: auto;
+    width: 350px;
 }
 
 
@@ -271,6 +272,12 @@
 
     .infoContainerMobile {
         display: block;
+    }
+
+    .infoImageContainer img {
+        margin: auto;
+        height: auto;
+        width: 90%;
     }
 
 }
