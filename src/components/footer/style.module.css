@@ -63,3 +63,10 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 500px) {
+
+    .email {
+        font-size: 35px;
+    }
+}
