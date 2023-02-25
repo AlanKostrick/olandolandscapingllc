@@ -38,6 +38,10 @@ h2 {
     justify-content: center;
 }
 
+.copyRight {
+    font-size: 18px;
+}
+
 @media screen and (max-width: 500px) {
 
     .mobilePara {
@@ -46,6 +50,10 @@ h2 {
 
     .email {
         font-size: 35px;
+    }
+
+    .copyRight {
+        font-size: 14px;
     }
 
 }

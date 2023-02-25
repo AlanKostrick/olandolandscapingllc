@@ -31,6 +31,11 @@ const Footer = () => {
                 </div>
                 <div className={styles.footerSection}>
                     <h2>GET IN TOUCH</h2>
+                    <ul>
+                        <Link to='/contact'>
+                            <li>Contact us today</li>
+                        </Link>
+                    </ul>
                     <p className={styles.para}><span className={styles.email}>&#9993;</span> olandolandscaping@yahoo.com</p>
                     <p className={styles.para}><span className={styles.location}>&#10992;</span>Parkville, MD 21234</p>
                     <p className={styles.para}><span className={styles.phone}>&#128222;</span>(585) 300-1181</p>

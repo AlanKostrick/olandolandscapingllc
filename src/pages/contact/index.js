@@ -37,7 +37,7 @@ const Contact = () => {
                     <p className={cx(styles.para, styles.mobilePara)}><span className={styles.location}>&#10992;</span>Parkville, MD 21234</p>
                     <p className={cx(styles.para, styles.mobilePara)}><span className={styles.phone}>&#128222;</span>(585) 300-1181</p>
                     <p className={cx(styles.para, styles.mobilePara)} ><span className={styles.phone}>&#128222;</span>(585) 300-1165</p>
-                    <p>&copy; 2023 Olando Landscaping LLC</p>
+                    <p className={styles.copyRight}>&copy; 2023 Olando Landscaping LLC</p>
                 </div>
             </div>
         </>
