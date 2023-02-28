@@ -76,3 +76,8 @@ label {
 .index-module_Button__F3ERg {
     margin: .2rem 0 !important;
 }
+
+.ReactModal__Content {
+    max-width: 800px;
+    margin: auto;
+}

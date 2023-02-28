@@ -301,43 +301,44 @@ const CTAs = () => {
                 <div className={cx(styles.ctaItem)} onClick={() => openLawnService()}>
                     <img className={styles.icon} src={lawnmower} alt='' />
                     <h3>Lawn Service</h3>
+                    <button className={styles.infoBtn}>More info</button>
                 </div>
                 <div className={cx(styles.ctaItem)} onClick={() => openHardscapes()}>
                     <img className={styles.icon} src={paving} alt='' />
                     <h3>Hardscapes</h3>
+                    <button className={styles.infoBtn}>More info</button>
                 </div>
                 <div className={cx(styles.ctaItem)} onClick={() => openPressureWashing()}>
                     <img className={styles.icon} src={pressureWasher} alt='' />
                     <h3>Pressure Washing</h3>
+                    <button className={styles.infoBtn}>More info</button>
                 </div>
                 <div className={cx(styles.ctaItem)} onClick={() => openMaintenance()}>
                     <img className={styles.icon} src={field} alt='' />
                     <h3>Maintenance</h3>
+                    <button className={styles.infoBtn}>More info</button>
                 </div>
                 <div className={cx(styles.ctaItem)} onClick={() => openGardening()}>
                     <img className={styles.icon} src={gardening} alt='' />
                     <h3>Gardening</h3>
+                    <button className={styles.infoBtn}>More info</button>
                 </div>
                 <div className={cx(styles.ctaItem)} onClick={() => openSnowRemoval()}>
                     <img className={styles.icon} src={shovel} alt='' />
                     <h3>Snow Removal</h3>
+                    <button className={styles.infoBtn}>More info</button>
                 </div>
                 <div className={cx(styles.ctaItem)} onClick={() => openLeaves()}>
                     <img className={styles.icon} src={raking} alt='' />
                     <h3>Leaves</h3>
+                    <button className={styles.infoBtn}>More info</button>
                 </div>
                 <div className={cx(styles.ctaItem)} onClick={() => openMulching()}>
                     <img className={styles.icon} src={mulch} alt='' />
                     <h3>Mulching</h3>
+                    <button className={styles.infoBtn}>More info</button>
                 </div>
             </div>
-            {location.pathname === '/' &&
-                <Link to='/services'>
-                    <div className={styles.buttonWrapper}>
-                        <button className={styles.primaryBtn}>Learn More</button>
-                    </div>
-                </Link>
-            }
         </div>
     )
 }
