@@ -14,7 +14,7 @@ export default function HomeSlider() {
     return (
         <HeroSlider
             height={"65vh"}
-            autoplay
+            //   autoplay
             controller={{
                 initialSlide: 1,
                 slidingDuration: 200,
