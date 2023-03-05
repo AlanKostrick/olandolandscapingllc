@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.37a771a2.css",
-    "main.js": "/static/js/main.d17ee124.js",
+    "main.css": "/static/css/main.80ba4232.css",
+    "main.js": "/static/js/main.f5a5ca17.js",
     "static/js/787.a7b9c2d7.chunk.js": "/static/js/787.a7b9c2d7.chunk.js",
     "static/media/lawn-care.jpg": "/static/media/lawn-care.5e5701733f580c6c2f54.jpg",
     "static/media/fix.jpg": "/static/media/fix.4c14851d42f8ae1c2fdd.jpg",
@@ -47,12 +47,12 @@
     "static/media/pressure-washer.png": "/static/media/pressure-washer.767b78dd1bc8c66b4717.png",
     "static/media/outline-icons.woff2": "/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/index.html",
-    "main.37a771a2.css.map": "/static/css/main.37a771a2.css.map",
-    "main.d17ee124.js.map": "/static/js/main.d17ee124.js.map",
+    "main.80ba4232.css.map": "/static/css/main.80ba4232.css.map",
+    "main.f5a5ca17.js.map": "/static/js/main.f5a5ca17.js.map",
     "787.a7b9c2d7.chunk.js.map": "/static/js/787.a7b9c2d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37a771a2.css",
-    "static/js/main.d17ee124.js"
+    "static/css/main.80ba4232.css",
+    "static/js/main.f5a5ca17.js"
   ]
 }
