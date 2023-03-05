@@ -142,6 +142,15 @@ svg {
     }
 }
 
+@media screen and (max-width: 655px) {
+
+    .preTitle {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 450px) {
 
     .preTitle {
