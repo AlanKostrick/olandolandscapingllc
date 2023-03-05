@@ -1,6 +1,6 @@
-import { Link, useLocation } from 'react-router-dom';
 import React, { useState } from 'react';
 
+import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
 import cx from 'classnames';
 import field from '../../../assets/field.png';
@@ -22,7 +22,6 @@ import trimming from '../../../assets/trimming.png';
 
 const CTAs = () => {
 
-    const location = useLocation();
     const [isLawnServiceOpen, setLawnServiceOpen] = useState(false);
     const [isHardscapesOpen, setHardscapesOpen] = useState(false);
     const [isPressureWashingOpen, setPressureWashingOpen] = useState(false);
