@@ -23,6 +23,14 @@
     margin: 0 !important;
 }
 
+.buttonWrapper {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
 .secondaryBtn {
     background: none;
     border: 1px solid #ffffff;
@@ -67,6 +75,7 @@
 
 a {
     color: #ffffff;
+    cursor: pointer;
     text-decoration: underline;
 }
 
