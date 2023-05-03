@@ -66,6 +66,17 @@ const NavBar = () => {
                                 Contact
                             </NavLink>
                         </li>
+                        <li>
+                            <NavLink
+                                onClick={() => setOpen(false)}
+                                to="/our-work"
+                                className={({ isActive }) =>
+                                    isActive ? style.active : undefined
+                                }
+                            >
+                                Our Work
+                            </NavLink>
+                        </li>
                     </ul>
                 </nav>
             </header >

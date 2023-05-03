@@ -1,0 +1,10 @@
+.galleryContainer {
+    margin: auto;
+    max-width: 1820px;
+    padding: 200px 10px;
+}
+
+.galleryContainer div div {
+    display: flex;
+    justify-content: center;
+}
