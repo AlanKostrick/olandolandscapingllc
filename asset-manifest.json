@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.db6ce227.css",
-    "main.js": "/static/js/main.771e9824.js",
+    "main.css": "/static/css/main.fcef0aac.css",
+    "main.js": "/static/js/main.6cb1cc98.js",
     "static/js/787.a7b9c2d7.chunk.js": "/static/js/787.a7b9c2d7.chunk.js",
     "static/media/lawn-care.jpg": "/static/media/lawn-care.5e5701733f580c6c2f54.jpg",
     "static/media/fix.jpg": "/static/media/fix.4c14851d42f8ae1c2fdd.jpg",
@@ -11,10 +11,13 @@
     "static/media/gallery9.jpeg": "/static/media/gallery9.014e1bfd04d359ff06ec.jpeg",
     "static/media/gallery1.jpeg": "/static/media/gallery1.c09a7af63250cefb5c01.jpeg",
     "static/media/gallery8.jpeg": "/static/media/gallery8.c3e45d0e19e36f3330ef.jpeg",
+    "static/media/about1.jpeg": "/static/media/about1.3b1ac95b4049273fbff8.jpeg",
     "static/media/gallery7.jpeg": "/static/media/gallery7.d588de7755f10d61b1cc.jpeg",
     "static/media/gallery5.jpeg": "/static/media/gallery5.4e4ad93f8dffca76f757.jpeg",
+    "static/media/about3.jpeg": "/static/media/about3.847be08a4c95197c0452.jpeg",
     "static/media/tools.jpg": "/static/media/tools.761aaec575c65ac691c3.jpg",
     "static/media/commercial.jpg": "/static/media/commercial.df06efdc9da3d83e14b5.jpg",
+    "static/media/about2.jpeg": "/static/media/about2.9525bee12b2b292450a7.jpeg",
     "static/media/gallery4.jpeg": "/static/media/gallery4.4d14624dd61acbc1970b.jpeg",
     "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/backyard.jpg": "/static/media/backyard.5bdc5dd20432fd65e277.jpg",
@@ -57,12 +60,12 @@
     "static/media/pressure-washer.png": "/static/media/pressure-washer.767b78dd1bc8c66b4717.png",
     "static/media/outline-icons.woff2": "/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/index.html",
-    "main.db6ce227.css.map": "/static/css/main.db6ce227.css.map",
-    "main.771e9824.js.map": "/static/js/main.771e9824.js.map",
+    "main.fcef0aac.css.map": "/static/css/main.fcef0aac.css.map",
+    "main.6cb1cc98.js.map": "/static/js/main.6cb1cc98.js.map",
     "787.a7b9c2d7.chunk.js.map": "/static/js/787.a7b9c2d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db6ce227.css",
-    "static/js/main.771e9824.js"
+    "static/css/main.fcef0aac.css",
+    "static/js/main.6cb1cc98.js"
   ]
 }
