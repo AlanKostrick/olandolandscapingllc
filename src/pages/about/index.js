@@ -1,10 +1,35 @@
 import ContactForm from '../../components/contact-form';
+import { Gallery } from 'react-grid-gallery';
 import React from 'react';
+import about1 from '../../assets/about1.jpeg';
+import about2 from '../../assets/about2.jpeg';
+import about3 from '../../assets/about3.jpeg';
 import cx from 'classnames';
 import garden from '../../assets/garden2.jpg';
 import styles from './style.module.css';
 
 const About = () => {
+
+
+    const images = [
+        {
+            src: about2,
+            width: 300,
+            height: 400
+        },
+        {
+            src: about1,
+            width: 300,
+            height: 400
+        },
+        {
+            src: about3,
+            width: 300,
+            height: 400
+        }
+    ]
+
+
     return (
         <>
             <div style={{
@@ -30,6 +55,11 @@ const About = () => {
             <div className={styles.container}>
                 <h1>We are here to help</h1>
                 <h2> Our whole team is dedicated to walking you through each step of the process to ensure you get the look you want, at the price you can afford.</h2>
+
+                <div className={styles.galleryContainer}>
+                    <Gallery rowHeight={400} images={images} />
+                </div>
+
                 <ContactForm />
                 <div className={styles.contactSection}>
                     <p>Olando Landscaping LLC delivers beautiful designs, high quality landscaping solutions, and affordable prices. Our professional crews have the equipment and experience with a variety of materials, to make your landscaping designs and dreams a reality and will get your landscaping projects done right. Our whole team is dedicated to walking you through each step of the process to ensure you get the look you want, at the price you can afford.

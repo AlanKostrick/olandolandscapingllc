@@ -42,6 +42,17 @@ h2 {
     font-size: 18px;
 }
 
+.galleryContainer {
+    margin: auto;
+    max-width: 1820px;
+    padding: 100px 10px;
+}
+
+.galleryContainer div div {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 500px) {
 
     .mobilePara {
