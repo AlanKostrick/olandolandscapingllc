@@ -36,11 +36,10 @@ const Footer = () => {
                             <li>Contact us today</li>
                         </Link>
                     </ul>
-                    <p className={styles.para}><span className={styles.email}>&#9993;</span> olando@olandolandscapingllc.com</p>
+                    <p className={styles.para}><span className={styles.email}>&#9993;</span> olandolandsacping@yahoo.com</p>
                     <p className={styles.para}><span className={styles.location}>&#10992;</span>5835 York Road #1182</p>
                     <p className={styles.para}><span className={styles.location}></span>  Baltimore, MD 21212</p>
-                    <p className={styles.para}><span className={styles.phone}>&#128222;</span>1 (888) 350-1386</p>
-                    <p className={styles.para} ><span className={styles.phone}>&#128222;</span>1 (585) 300-1181</p>
+                    <p className={styles.para}><span className={styles.phone}>&#128222;</span>1 (410) 725-3191</p>
                     <p>&copy; 2023 Olando Landscaping LLC</p>
                     <p style={{ fontWeight: '700' }}>Licensed & Insured</p>
                 </div>
